@@ -1,0 +1,28 @@
+.sidebar {
+    position: fixed;
+    
+    background-color: rgb(57, 78, 57);
+    width: 132px;
+    z-index: 200;
+    border: 2px;
+    border-style: solid;
+    border-color :rgb(122, 18, 18);
+}
+
+.episode-link{
+    font-size: 18px;
+    padding-top: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(216, 216, 216);
+    cursor: pointer;
+
+    transition: font-size 0.8s, font-weight 0.2s;
+}
+
+.episode-link:hover{
+    font-weight: bold;
+    font-size: 20px;
+}

@@ -1,0 +1,45 @@
+.player-grid-container{
+    margin-top: 20px;
+    margin-left: clamp(150px, 25vw, 200px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.player-image{
+    margin-right: 8px;
+    margin-top: 4px;
+    border-style: solid;
+}
+
+.tribe-name{
+    margin-bottom: 20px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top:2px;
+    padding-bottom: 2px;
+
+    border: solid;
+    border-radius: 5px;
+
+    font-weight: bold;
+}
+
+.player-grid{
+    margin-bottom: 50px;
+
+}
+
+.player-row{
+    display: flex;
+    justify-content: center;
+}
+
+
+.tribe-season01-pagong{
+    background-color: yellow;    
+}
+
+.tribe-season01-tagi{
+    background-color: orange;
+}

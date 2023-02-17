@@ -1,0 +1,36 @@
+.season-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
+}
+.season-select{
+    background-color: rgb(57, 78, 57);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 4px;
+    border-radius: 12px;
+    cursor: pointer;
+    border-color :rgb(122, 18, 18);
+    border-width: 1px;
+    border-style: solid;
+    transition: opacity 0.15s;
+
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 4px;
+
+    width: 222px;
+}
+
+.season-select:hover {
+    opacity: 0.8;
+}
+
+
+.season-name{
+    color: rgb(216, 216, 216);
+    padding-bottom: 4px;
+}
